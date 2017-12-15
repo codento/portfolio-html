@@ -1,2 +1,2 @@
 # portfolio-html
-This reposity will contain standalone html file showcasing visualizations from Portfolio Visualizer for demo effect reducing purposes.
+This reposity will contain standalone dummy html page showcasing visualizations from Portfolio Visualizer for demo effect reducing purposes.
