@@ -1,0 +1,84 @@
+
+text {
+  fill: #000;
+  font-family: "Exo 2", sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.currentDate {
+  font-weight: : 700;
+  font-size: 70px;
+  fill: black;
+  opacity: 0.3;
+}
+
+.info {
+  font-weight: : 300;
+  font-size: 45px;
+  font-family: "Exo 2", sans-serif;
+  fill: black;
+  opacity: 0.3;
+}
+.axisLabel {
+  font-weight: : 200;
+  font-size: 30px;
+  font-family: "Exo 2", sans-serif;
+  fill: black;
+  opacity: 0.3;
+}
+
+.sliderLabel {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+  fill: black;
+
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
+.track,
+.track-inset,
+.track-overlay {
+  stroke-linecap: round;
+}
+
+.track {
+  stroke: #000;
+  stroke-opacity: 0.3;
+  stroke-width: 20px;
+}
+
+.track-inset {
+  stroke: #ddd;
+  stroke-width: 8px;
+}
+
+.track-overlay {
+  pointer-events: stroke;
+  stroke-width: 50px;
+  stroke: transparent;
+}
+
+.handle {
+  fill: black;
+  stroke: #000;
+  r: 20;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25px;
+}
+
+img#loading-icon {
+  padding-top: 15%;
+  cursor: wait;
+  transform: scale(2,2);
+}
+
+#snap-info-cont div.panel {
+  margin-bottom: 4vh;
+}

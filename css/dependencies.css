@@ -1,0 +1,19 @@
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+/* possibly not needed since there is only one type of links? */
+
+path.link.fivezero {
+  opacity: 0.50;
+}
+
+/* definition for text */
+
+text {
+  fill: #000;
+  font-size: 15px;
+  font-family: "Exo 2", sans-serif;
+  pointer-events: none;
+}
